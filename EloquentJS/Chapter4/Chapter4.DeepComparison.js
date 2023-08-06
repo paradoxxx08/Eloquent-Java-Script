@@ -20,7 +20,7 @@ function deepEqual (value1, value2) {
             }
         }
         for (let i = 0; i < array1.length; i++) {
-            if (deepEqual (value1[array1[i]], value2[array2[i]]) === false) {
+            if (deepEqual(value1[array1[i]], value2[array2[i]]) === false) {
                 return false
             }
         }
